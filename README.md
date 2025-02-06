@@ -1,3 +1,3 @@
-Bonjour
+Bonjour monsieur,
 
-Voici sur notre travail. Ce travail a été réalisé par Thomas, Tilio et Stéphane.
+Voici notre travail, il a été réalisé par Thomas, Tilio et Stéphane.
