@@ -26,6 +26,6 @@ touch style.css
 nano style.css
 	j'écris le code css
 git add style.css
-git commit "fichier css"
+git commit -m "fichier css"
 git push origin CSS
 ```git 
