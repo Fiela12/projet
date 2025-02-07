@@ -40,3 +40,13 @@ git commit -m "contenu"
 git push -u origin contenu
 	steph706
 	token
+
+git checkout CSS
+git pull origin CSS
+ls
+nano style.css
+git add style.css
+git commit -u "styles.css"
+git push -u origin CSS
+	steph706
+	token
