@@ -6,7 +6,23 @@
 origin https://nouvelle_adresse ; et je l'ai vérifiée par la suite : git 
 remote -v)
 -git branch accueil/contacts/contenu/MobileWarframe
+-git branch -r
+-git branch -d accieul
+-git push origin --delete accieul
 -git push origin accueil contacts contenu MobileWarframe
+-git add <fichier>
+-git commit -m "message"
+-git push origin master/CSS..
+-git pull origin master/CSS...
+
+A un moment, toutes mes branches ont disparus (dont une grande partie de mes
+modifications, notamment sur ce fichier) et j'ai essayer de les relier à 
+celles de github : 
+-git checkout -b CSS/accueil/contacts... origin/CSS/accueil/contactss
+
+Partie MERGE :
+
+
 
 partie Media : 
 @media screen and (max-width : 600px){
