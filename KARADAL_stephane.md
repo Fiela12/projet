@@ -50,3 +50,11 @@ git commit -u "styles.css"
 git push -u origin CSS
 	steph706
 	token
+
+git checkout master
+nano KARADAL_stephane.md
+git add KARADAL_stephane.md
+git commit -m "commandes stephane"
+git push -u origin master
+	steph706
+	token
