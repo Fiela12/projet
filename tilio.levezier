@@ -21,6 +21,11 @@ celles de github :
 -git checkout -b CSS/accueil/contacts... origin/CSS/accueil/contactss
 
 Partie MERGE :
+mes branches ne se merge pas, j'ai des "conflits d'usages : fichiers erronés
+et/ou corrompus" ou je ne sais pas trop quoi. Depuis hier que je n'arrive
+pas à résoudre le conflit.
+-git merge --abort
+-git reset --hard HEAD
 
 
 
