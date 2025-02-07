@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>eval git</title>
+        <meta charset="utf-8">
+        <meta name="description">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+	<nav>
+        <a href="index.html">Acceuil</a>
+        <a href="contact.html">Contact</a>
+        <a href="contenu.html">Contenu</a>
+	</nav>
+        <form action="recherche.php" method="get">
+            <input type="search" name="recherche" id="recherche" maxlength="200" placeholder="Rechercher...">
+        </form>
+        <h1>Nous contacter :</h1>
+        <form action="page.php" method="post" enctype="multipart/form-data">
+            <label for="lastname">Nom</label>
+            <input type="text" name="lastname" id="lastname" maxlength="200">
+            <br>
+            <label for="firstname">Prénom</label>
+            <input type="text" name="firstname" id="firstname"maxlength="200">
+            <br>
+            <label for="email">mail</label>
+            <input type="email" name="email" id="email" maxlength="250">
+            <br>
+            <label for="m">monsieur</label>
+            <input type="radio" name="sex" id="m" value="1">
+
+            <label for="Mme">madame</label>
+            <input type="radio" name="sex" id="Mme" value="2">
+            <br>
+            <label for="avis">votre avis</label>
+            <br>
+            <textarea name="avis" maxlength="1000" rows="20" cols="80"></textarea>
+            <br>
+            <input type="submit" value="Valider">
+        </form>
+    </body>
+</html>
