@@ -4,6 +4,7 @@ mdp root
 cd /home/bigboss
 git clone https://github.com/Fiela12/projet.git
 cd projet
+
 touch KARADAL_stephane.md
 git config user.email "stephane.karadal@efrei."
 git config user.name "steph706"
