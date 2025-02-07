@@ -8,7 +8,7 @@ git config user.email "ivetui78@gmail.com"
 git config user.name "AFMAsa"
 git add LOUISON_THOMAS.md
 git commit -m "Fichier de commande pour Thomas"
-git push origin main
+git push origin master
   AFMAsa
   mon token
 
@@ -17,9 +17,11 @@ git push origin CSS
   AFMAsa 
   mon token
   
-git pull origin accueil
-	cd accueil
+git checkout acceuill
+cd accueil
+git pull index.html
 	nano index.html (pour voir le code)
+git checkout master
 
 git checkout CSS
 touch style.css 
