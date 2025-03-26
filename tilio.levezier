@@ -8,6 +8,8 @@
 origin https://nouvelle_adresse ; et je l'ai vérifiée par la suite : git 
 remote -v)
 -git branch accueil/contacts/contenu/MobileWarframe
+-git checkout MobileWarframe
+-cd accueil
 -git push origin accueil contacts contenu MobileWarframe
 
 partie Media : 
