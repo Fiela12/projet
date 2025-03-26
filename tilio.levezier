@@ -2,6 +2,8 @@
 -git remote add https://...
 -git config user.email "tilio.levezier@gmail.com"
 -git config user.name "token"
+-git commit -m "Mon fichier CSS"
+
 -(l'adresse n'était pas la bonne je l'ai donc changée : git remote set-url
 origin https://nouvelle_adresse ; et je l'ai vérifiée par la suite : git 
 remote -v)
